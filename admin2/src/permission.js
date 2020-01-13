@@ -24,7 +24,8 @@ router.beforeEach(async(to, from, next) => {
     // determine whether the user has logged in
     const hasToken = getToken();
     if (hasToken) {
-        if (to.path === '/login') {
+        console.log(to.meta);
+        if (to.meta.guest == true) {
             next({ path: '/' });
         } else {
             if(!store.getters.user.id){
