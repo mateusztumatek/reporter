@@ -1,0 +1,1734 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="97cbf4f1-756b-4125-880e-a42aab148eda" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../adopciaki/app/Help/Helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../adopciaki/app/Traits/FilterTrait.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../adopciaki/resources/js/api/shelters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../adopciaki/resources/js/views/login/AuthRedirect.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../adopciaki/resources/js/views/login/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../adopciaki/resources/js/views/register/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../adopciaki/resources/js/views/shelters/create.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../adopciaki/resources/js/views/shelters/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../adopciaki/resources/lang/pl/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../adopciaki/resources/lang/pl/pagination.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../adopciaki/resources/lang/pl/passwords.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../adopciaki/resources/lang/pl/validation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../forum/resources/js/api/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../forum/resources/js/plugins/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../forum/resources/js/plugins/i18n.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../forum/resources/js/plugins/vuetify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../forum/resources/js/utilis/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../forum/resources/js/utilis/helper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../forum/resources/js/utilis/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../forum/resources/js/utilis/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../forum/resources/js/utilis/session.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../forum/resources/js/views/auth/login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../forum/resources/js/views/auth/register.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mati/public/css/_site-base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mati/public/css/_site-blocks.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mati/public/css/_site-navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mati/public/css/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mati/public/images/blog_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mati/public/images/blog_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mati/public/images/blog_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mati/public/images/credo_img_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mati/public/images/img_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mati/public/images/img_10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mati/public/images/img_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mati/public/images/img_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mati/public/images/img_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mati/public/images/img_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mati/public/images/img_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mati/public/images/img_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mati/public/images/img_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mati/public/images/img_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mati/public/images/person_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mati/public/images/person_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mati/public/js/aos.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mati/public/js/bootstrap-datepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mati/public/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mati/public/js/isotope.pkgd.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mati/public/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mati/public/js/jquery-migrate-3.0.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mati/public/js/jquery-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mati/public/js/jquery.countdown.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mati/public/js/jquery.easing.1.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mati/public/js/jquery.fancybox.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mati/public/js/jquery.magnific-popup.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mati/public/js/jquery.stellar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mati/public/js/jquery.sticky.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mati/public/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mati/public/js/mediaelement-and-player.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mati/public/js/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mati/public/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mati/public/js/slick.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mati/public/js/typed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mati/resources/views/partials/about.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mati/resources/views/partials/header.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mati/resources/views/partials/services.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-shop/app/Traits/FilterTrait.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-shop/resources/js/api/attributes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-shop/resources/js/api/categories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-shop/resources/js/lang/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-shop/resources/js/my-views/attributes/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-shop/resources/js/my-views/categories/add.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-shop/resources/js/my-views/categories/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-shop/resources/js/my-views/collections/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-shop/resources/js/my-views/products/add.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-shop/resources/js/my-views/products/add_variant.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-shop/resources/js/my-views/products/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/api_my/websites.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/components/messages-component.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/mixins.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/store/module/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/theme/default.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/util/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/util/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/views/auth/register.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/views/websites/browse.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/src/views/websites/edit-add.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin2/public/static/logo-white.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin2/public/static/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin2/src/api/langs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin2/src/api/notifications.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin2/src/assets/custom.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin2/src/assets/variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin2/src/components/statystic/MiniStatistic.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin2/src/mixins.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin2/src/views/login/login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/app/Cart.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/app/Help/Helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/public/css/custom.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/public/css/front.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/public/css/mobile.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/public/css/my.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/public/css/variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/public/default/actions.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/public/default/background-login.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/public/default/banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/public/default/banner1-elem.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/public/default/banner1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/public/default/banner2-elem.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/public/default/banner2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/public/default/calendar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/public/default/callendar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/public/default/clock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/public/default/config-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/public/default/config.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/public/default/config1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/public/default/config2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/public/default/drag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/public/default/example avatar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/public/default/logo-duze.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/public/default/logo-male.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/public/default/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/public/default/moon-small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/public/default/morning-small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/public/default/noPhoto.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/public/default/o1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/public/default/select-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/public/default/setting-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/public/default/sun-small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/public/default/time-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/public/default/wallet-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/public/slick/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/public/slick/config.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/public/slick/fonts/slick.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/public/slick/fonts/slick.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/public/slick/fonts/slick.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/public/slick/fonts/slick.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/public/slick/slick-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/public/slick/slick-theme.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/public/slick/slick-theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/public/slick/slick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/public/slick/slick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/public/slick/slick.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/public/slick/slick.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/public/slick/slick.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/resources/js/api/activities.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/resources/js/api/attributes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/resources/js/api/callendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/resources/js/api/cart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/resources/js/api/categories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/resources/js/api/client.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/resources/js/api/orders.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/resources/js/api/portfolios.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/resources/js/api/rates.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/resources/js/api/services.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/resources/js/api/settings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/resources/js/api/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/resources/js/api/variants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/resources/js/directive/my-loading.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/resources/js/front.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/resources/js/layout/components/cart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/resources/js/layout/components/navigation.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/resources/js/layout/front.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/resources/js/router/frontRouter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/resources/js/styles/custom.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/resources/js/views/Front.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/resources/js/views/Front/Components/date-component.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/resources/js/views/Front/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/resources/js/views/Front/kasa.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/resources/js/views/Front/rates_section.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/resources/js/views/Front/service.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/resources/js/views/activity/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/resources/js/views/activity/tabs/attachment.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/resources/js/views/activity/tabs/contact.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/resources/js/views/activity/tabs/description.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/resources/js/views/activity/tabs/portfolios.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/resources/js/views/activity/tabs/services.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/resources/js/views/activity/tabs/settings.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/resources/js/views/attributes/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/resources/js/views/callendary/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/resources/js/views/history/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/resources/js/views/register/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/resources/js/views/services/additionals/categories.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/resources/js/views/services/additionals/photos.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/resources/js/views/services/additionals/pricing.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/resources/js/views/services/additionals/variants.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/resources/js/views/services/edit-add.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/resources/js/views/services/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/resources/js/views/services/table.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/resources/views/front/activity/header.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/resources/views/front/activity/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/resources/views/front/home.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/resources/views/front/layouts/app.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/resources/views/front/layouts/footer.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/resources/views/front/layouts/navbar.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../signme2/resources/views/front/layouts/slider.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/front/src/permission.js" beforeDir="false" afterPath="$PROJECT_DIR$/../app/front/src/permission.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/front/src/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/../app/front/src/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/front/src/store/getters.js" beforeDir="false" afterPath="$PROJECT_DIR$/../app/front/src/store/getters.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/admin/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/api/activity.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/api/activity.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/api/chart.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/api/chart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/api/chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/api/chat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/api/country.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/api/country.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/api/file.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/api/file.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/api/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/api/mail.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/api/mail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/api/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/api/menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/api/message.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/api/message.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/api/notification.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/api/notification.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/api/order.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/api/order.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/api/post.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/api/post.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/api/project.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/api/project.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/components/layouts/DefaultLayout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/components/layouts/DefaultLayout.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/lang/i18n/zh.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/lang/lang.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/lang/lang.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/router/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/router/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/store.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/store/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/api_my/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/store/getters.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/store/getters.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/store/module/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/store/module/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/Dashboard.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/Dashboard.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/views/auth/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/views/auth/Login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/vue.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/.idea/api.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/.styleci.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/Cart.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/Category.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/Console/Commands/CustomServeCommand.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/Console/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/DiscountCode.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/Events/NotificationEvent.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/Events/OrderEvent.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/Events/SaleChangeEvent.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/Exceptions/Handler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/FileOwner.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/Helpers/Helper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/Http/Controllers/Auth/ForgotPasswordController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/Http/Controllers/Auth/ResetPasswordController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/Http/Controllers/Auth/VerificationController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/Http/Controllers/AuthController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/Http/Controllers/CartController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/Http/Controllers/CategoryController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/Http/Controllers/Controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/Http/Controllers/DiscountCodeController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/Http/Controllers/ExampleController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/Http/Controllers/ItemController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/Http/Controllers/NotificationController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/Http/Controllers/OrderController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/Http/Controllers/PlaceController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/Http/Controllers/SaleController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/Http/Controllers/StatsController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/Http/Controllers/TagController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/Http/Controllers/UploadController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/Http/Controllers/UserController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/Http/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/Http/Middleware/Authenticate.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/Http/Middleware/CheckForMaintenanceMode.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/Http/Middleware/CorsMiddleware.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/Http/Middleware/EncryptCookies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/Http/Middleware/SessionKey.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/Http/Middleware/TrimStrings.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/Http/Middleware/TrustProxies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/Item.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/Listeners/SaleChangeListener.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/Mail/VerificationEmail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/Notification.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/Observers/NotificationObserver.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/Observers/OrderObserver.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/Observers/PayuModelObserver.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/Order.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/OrderItem.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/Place.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/Providers/AppServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/Providers/AuthServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/Providers/BroadcastServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/Providers/EventServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/Providers/RouteServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/Sale.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/Services/DiscountCodeService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/Services/ItemsService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/Services/PayuHistory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/Services/PayuModel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/Services/PayuPayment.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/Services/StatsItem.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/Stats.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/Tag.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/Traits/BoundsFilter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/Traits/FilterTrait.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/app/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/artisan" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/bootstrap/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/bootstrap/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/bootstrap/cache/config.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/bootstrap/cache/packages.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/bootstrap/cache/services.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/config/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/config/auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/config/broadcasting.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/config/cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/config/cors.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/config/database.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/config/deploy.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/config/dompdf.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/config/filesystems.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/config/geoip.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/config/hashing.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/config/laravel_google_translate.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/config/logging.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/config/mail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/config/payu.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/config/queue.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/config/services.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/config/session.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/config/tracker.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/config/view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/factories/UserFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2015_03_07_311070_create_tracker_paths_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2015_03_07_311071_create_tracker_queries_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2015_03_07_311072_create_tracker_queries_arguments_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2015_03_07_311073_create_tracker_routes_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2015_03_07_311074_create_tracker_routes_paths_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2015_03_07_311075_create_tracker_route_path_parameters_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2015_03_07_311076_create_tracker_agents_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2015_03_07_311077_create_tracker_cookies_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2015_03_07_311078_create_tracker_devices_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2015_03_07_311079_create_tracker_domains_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2015_03_07_311080_create_tracker_referers_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2015_03_07_311081_create_tracker_geoip_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2015_03_07_311082_create_tracker_sessions_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2015_03_07_311083_create_tracker_errors_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2015_03_07_311084_create_tracker_system_classes_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2015_03_07_311085_create_tracker_log_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2015_03_07_311086_create_tracker_events_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2015_03_07_311087_create_tracker_events_log_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2015_03_07_311088_create_tracker_sql_queries_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2015_03_07_311089_create_tracker_sql_query_bindings_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2015_03_07_311090_create_tracker_sql_query_bindings_parameters_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2015_03_07_311091_create_tracker_sql_queries_log_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2015_03_07_311092_create_tracker_connections_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2015_03_07_311093_create_tracker_tables_relations.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2015_03_13_311094_create_tracker_referer_search_term_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2015_03_13_311095_add_tracker_referer_columns.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2015_11_23_311096_add_tracker_referer_column_to_log.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2015_11_23_311097_create_tracker_languages_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2015_11_23_311098_add_language_id_column_to_sessions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2015_11_23_311099_add_tracker_language_foreign_key_to_sessions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2015_11_23_311100_add_nullable_to_tracker_error.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2017_01_31_311101_fix_agent_name.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2017_06_20_311102_add_agent_name_hash.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2017_12_13_150000_fix_query_arguments.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2019_09_15_191111_add_fields_to_users_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2019_10_01_192200_add_verification_code_to_users_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2019_10_14_182757_add_avatar_to_users_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2019_10_15_182055_add_city_to_users_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2019_10_20_165157_create_places_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2019_10_20_165612_create_sales_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2019_10_20_170204_create_items_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2019_10_21_194333_add_user_to_places_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2019_10_23_204523_create_tags_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2019_10_27_201039_create_categories_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2019_10_28_203515_add_items_categories_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2019_11_04_181337_add_fields_to_sales_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2019_11_04_191220_create_sale_items_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2019_11_11_195722_create_sessions_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2019_11_16_124433_create_orders_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2019_11_16_124946_create_order_items_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2019_11_16_125447_add_emial_to_orders_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2019_11_17_114019_add_paid_to_order_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2019_11_17_140145_add_hash_to_orders_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2019_11_17_164333_add_fields_to_orders_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2019_11_20_184138_add_slug_to_places_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2019_11_21_201514_create_payu_payments_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2019_11_27_200752_add_place_id_to_orders_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2019_12_01_205517_create_stats_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2019_12_02_194813_add_fields_to_stats_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2019_12_03_195948_add_stats_to_products.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2019_12_03_213259_add_ip_to_stats_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2019_12_03_214711_add_hash_to_stats_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2019_12_04_185653_create_notifications_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2019_12_04_210451_create_discount_codes_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2019_12_15_003257_create_file_ownders_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2019_12_15_172022_add_image_to_sellouts_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2019_12_15_181226_edit_image_field_in_items_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2019_12_15_231054_change_description_in_sales_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/migrations/2020_01_08_211745_add_archivized_to_orders_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/seeds/DatabaseSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/seeds/ProductsTableSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/seeds/SeedOrdersTable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/seeds/SeedPlacesTable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/seeds/SeedSalesTable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/seeds/SeedUsersTable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/database/seeds/UsersTableSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/phpunit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/public/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/public/css/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/public/css/pdfs.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/public/fonts/vendor/bootstrap/dist/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/public/fonts/vendor/bootstrap/dist/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/public/fonts/vendor/bootstrap/dist/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/public/fonts/vendor/bootstrap/dist/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/public/fonts/vendor/bootstrap/dist/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/public/images/de.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/public/images/en.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/public/images/pl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/public/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/public/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/public/mix-manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/public/web.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/resources/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/resources/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/resources/lang/de/auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/resources/lang/de/my.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/resources/lang/de/pagination.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/resources/lang/de/passwords.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/resources/lang/de/validation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/resources/lang/en/auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/resources/lang/en/my.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/resources/lang/en/pagination.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/resources/lang/en/passwords.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/resources/lang/en/validation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/resources/lang/pl/auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/resources/lang/pl/my.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/resources/lang/pl/pagination.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/resources/lang/pl/passwords.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/resources/lang/pl/validation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/resources/sass/app.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/resources/sass/pdfs.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/resources/sass/pdfs.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/resources/sass/pdfs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/resources/views/pdfs/coupons.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/resources/views/pdfs/pdf.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/resources/views/vendor/notifications/beefree-4os3enp5n5a.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/resources/views/vendor/notifications/email.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/resources/views/welcome.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/routes/api.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/routes/channels.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/routes/console.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/routes/web.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/server.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/storage/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/storage/app/public/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/storage/app/public/products/placeholder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/storage/fonts/Helvetica-Bold.afm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/storage/fonts/Helvetica.afm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/storage/fonts/NunitoSans-Black.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/storage/fonts/NunitoSans-BlackItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/storage/fonts/NunitoSans-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/storage/fonts/NunitoSans-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/storage/fonts/NunitoSans-ExtraBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/storage/fonts/NunitoSans-ExtraBoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/storage/fonts/NunitoSans-ExtraLight.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/storage/fonts/NunitoSans-ExtraLightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/storage/fonts/NunitoSans-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/storage/fonts/NunitoSans-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/storage/fonts/NunitoSans-LightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/storage/fonts/NunitoSans-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/storage/fonts/NunitoSans-SemiBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/storage/fonts/NunitoSans-SemiBoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/storage/fonts/Times-Bold.afm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/storage/framework/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/storage/framework/cache/data/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/storage/framework/sessions/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/storage/framework/testing/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/storage/framework/views/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/storage/logs/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/tests/Bootstrap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/tests/CreatesApplication.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/tests/Feature/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/tests/TestCase.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/tests/Unit/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/api/webpack.mix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/fron2/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/fron2/babel.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/fron2/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/fron2/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/fron2/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/fron2/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/fron2/public/scss/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/fron2/public/scss/main.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/fron2/public/scss/main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/fron2/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/fron2/src/api/categories.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/fron2/src/api/place.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/fron2/src/api/products.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/fron2/src/api/search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/fron2/src/api/upload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/fron2/src/api/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/fron2/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/fron2/src/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/fron2/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/fron2/src/router/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/fron2/src/store/getters.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/fron2/src/store/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/fron2/src/store/modules/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/fron2/src/store/modules/navigation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/fron2/src/store/modules/places.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/fron2/src/store/modules/products.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/fron2/src/store/modules/search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/fron2/src/store/modules/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/fron2/src/utilis/auth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/fron2/src/utilis/helper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/fron2/src/utilis/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/fron2/src/utilis/request.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/fron2/src/views/About.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/fron2/src/views/Home.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/fron2/src/views/Layout.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/fron2/src/views/partials/header.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/fron2/src/views/partials/sidebar.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/babel.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/public/css/external.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/public/css/external.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/public/css/external.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/public/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/public/css/main.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/public/css/main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/public/css/mobiles.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/public/css/variables.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/public/css/variables.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/public/css/variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/public/img/28518.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/public/img/icons/android-chrome-192x192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/public/img/icons/android-chrome-512x512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/public/img/icons/apple-touch-icon-120x120.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/public/img/icons/apple-touch-icon-152x152.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/public/img/icons/apple-touch-icon-180x180.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/public/img/icons/apple-touch-icon-60x60.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/public/img/icons/apple-touch-icon-76x76.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/public/img/icons/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/public/img/icons/favicon-16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/public/img/icons/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/public/img/icons/msapplication-icon-144x144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/public/img/icons/mstile-150x150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/public/img/icons/safari-pinned-tab.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/public/img/local.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/public/img/qr-code.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/public/img/restaurant.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/public/img/user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/public/service-worker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/AppLogin.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/AppMain.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/api/cart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/api/categories.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/api/codes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/api/langs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/api/notifications.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/api/order.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/api/place.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/api/products.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/api/search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/api/sellout.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/api/stats.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/api/upload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/api/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/assets/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/components/confirm.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/components/discount-code.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/components/errors.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/components/image-editor.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/components/lang-switcher.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/components/media-picker.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/components/notifications.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/components/table-header.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/permission.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/plugins/i18n.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/plugins/vuetify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/prototypes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/registerServiceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/router.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/routes/categories.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/routes/codes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/routes/localization.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/routes/orders.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/routes/products.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/routes/qrs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/routes/sellout.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/routes/stats.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/routes/store.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/store/getters.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/store/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/store/modules/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/store/modules/cart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/store/modules/navigation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/store/modules/notifications.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/store/modules/order.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/store/modules/places.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/store/modules/products.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/store/modules/search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/store/modules/sellout.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/store/modules/stats.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/store/modules/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/utilis/auth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/utilis/helper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/utilis/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/utilis/request.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/utilis/session.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/views/About.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/views/Home.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/views/account/edit.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/views/account/wishlist.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/views/cart/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/views/categories/edit-add.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/views/categories/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/views/codes/edit-add.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/views/codes/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/views/errors/404.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/views/layout/autocomplete.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/views/layout/footer.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/views/layout/header.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/views/layout/left-bar.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/views/layout/topbar-component.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/views/localization/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/views/localization/map-item.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/views/login/login.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/views/login/register.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/views/login/verify.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/views/orders/shop_orders.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/views/orders/show.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/views/place/create.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/views/place/index/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/views/place/info.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/views/products/create-partials/first.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/views/products/create-partials/second.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/views/products/create-partials/third.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/views/products/creator.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/views/products/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/views/products/show.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/views/qr/generate.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/views/qr/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/views/sellout/admin/manage.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/views/sellout/category.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/views/sellout/create.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/views/sellout/process.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/views/sellout/show.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/views/stats/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/views/stats/last-clients.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/views/stats/orders-chart.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/views/stats/product-chart.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/src/views/stats/stats-component.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin2/front/vue.config.js" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/api/composer.json</pharConfigPath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin2/src/views/layout/left-bar.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin2/src/store/modules/navigation.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin2/src/assets/custom.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin2/src/AppMain.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="24" lean-forward="true" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+              <folding>
+                <element signature="e#1080#1125#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin2/src/views/Home.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="e#91#134#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/src/views/Dashboard.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin2/src/components/statystic/MiniStatistic.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="56" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin2/src/views/layout/topbar-component.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="34" column="96" selection-start-line="34" selection-start-column="96" selection-end-line="34" selection-end-column="96" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../app/api/app/User.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/app/User.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>alert</find>
+      <find>Chat</find>
+      <find>load</find>
+      <find>loading</find>
+      <find>fade</find>
+      <find>pusher</find>
+      <find>status</find>
+      <find>cart.js</find>
+      <find>cart</find>
+      <find>lang</find>
+      <find>notification</find>
+      <find>session</find>
+      <find>sess</find>
+      <find>products</find>
+      <find>getSess</find>
+      <find>searc</find>
+      <find>$pr</find>
+      <find>search</find>
+      <find>asse</find>
+      <find>getPlace</find>
+      <find>getPlac</find>
+      <find>sellout/st</find>
+      <find>atte</find>
+      <find>messages</find>
+      <find>length</find>
+      <find>items</find>
+      <find>black</find>
+      <find>.primary</find>
+      <find>primary</find>
+      <find>hover</find>
+    </findStrings>
+    <dirStrings>
+      <dir>C:\xampp\htdocs\reporter\admin\src</dir>
+      <dir>C:\xampp\htdocs\reporter\admin</dir>
+      <dir>C:\xampp\htdocs\reporter\admin2\src</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/admin2" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/admin/src/router/config.js" />
+        <option value="$PROJECT_DIR$/admin/src/store/getters.js" />
+        <option value="$PROJECT_DIR$/api/routes/api.php" />
+        <option value="$PROJECT_DIR$/api/database/migrations/2020_01_12_191344_add_user_to_websites_table.php" />
+        <option value="$PROJECT_DIR$/api/app/Website.php" />
+        <option value="$PROJECT_DIR$/admin/src/util/request.js" />
+        <option value="$PROJECT_DIR$/admin/src/components/messages-component.vue" />
+        <option value="$PROJECT_DIR$/admin/src/store/module/app.js" />
+        <option value="$PROJECT_DIR$/api/app/Exceptions/Handler.php" />
+        <option value="$PROJECT_DIR$/api/app/Http/Controllers/WebsiteController.php" />
+        <option value="$PROJECT_DIR$/admin/src/main.js" />
+        <option value="$PROJECT_DIR$/admin/src/mixins.js" />
+        <option value="$PROJECT_DIR$/admin/src/views/websites/browse.vue" />
+        <option value="$PROJECT_DIR$/admin/src/components/layouts/DefaultLayout.vue" />
+        <option value="$PROJECT_DIR$/admin/src/theme/default.scss" />
+        <option value="$PROJECT_DIR$/admin2/src/bootstrap.js" />
+        <option value="$PROJECT_DIR$/admin2/src/secrete.js" />
+        <option value="$PROJECT_DIR$/../app/front/src/store/getters.js" />
+        <option value="$PROJECT_DIR$/../app/front/src/router.js" />
+        <option value="$PROJECT_DIR$/../app/front/src/permission.js" />
+        <option value="$PROJECT_DIR$/admin2/src/utilis/request.js" />
+        <option value="$PROJECT_DIR$/admin2/src/store/modules/notifications.js" />
+        <option value="$PROJECT_DIR$/admin2/src/api/notifications.js" />
+        <option value="$PROJECT_DIR$/admin2/src/router.js" />
+        <option value="$PROJECT_DIR$/admin2/src/assets/variables.scss" />
+        <option value="$PROJECT_DIR$/admin2/src/AppLogin.vue" />
+        <option value="$PROJECT_DIR$/admin2/src/assets/logo.svg" />
+        <option value="$PROJECT_DIR$/admin2/vue.config.js" />
+        <option value="$PROJECT_DIR$/admin2/public/index.html" />
+        <option value="$PROJECT_DIR$/admin2/public/static/logo.svg" />
+        <option value="$PROJECT_DIR$/admin2/src/config.js" />
+        <option value="$PROJECT_DIR$/api/app/Http/Controllers/Auth/LoginController.php" />
+        <option value="$PROJECT_DIR$/admin2/src/views/login/login.vue" />
+        <option value="$PROJECT_DIR$/admin2/src/store/modules/user.js" />
+        <option value="$PROJECT_DIR$/admin2/src/permission.js" />
+        <option value="$PROJECT_DIR$/admin2/src/store/getters.js" />
+        <option value="$PROJECT_DIR$/admin2/src/components/errors.vue" />
+        <option value="$PROJECT_DIR$/admin2/src/views/layout/autocomplete.vue" />
+        <option value="$PROJECT_DIR$/admin2/public/static/logo-white.svg" />
+        <option value="$PROJECT_DIR$/admin2/src/plugins/vuetify.js" />
+        <option value="$PROJECT_DIR$/admin2/src/views/layout/left-bar.vue" />
+        <option value="$PROJECT_DIR$/admin2/src/components/lang-switcher.vue" />
+        <option value="$PROJECT_DIR$/../app/api/database/migrations/2019_09_15_191111_add_fields_to_users_table.php" />
+        <option value="$PROJECT_DIR$/api/database/migrations/2020_01_12_215645_add_fields_to_users_table.php" />
+        <option value="$PROJECT_DIR$/admin2/src/views/layout/topbar-component.vue" />
+        <option value="$PROJECT_DIR$/api/app/User.php" />
+        <option value="$PROJECT_DIR$/admin2/src/store/modules/navigation.js" />
+        <option value="$PROJECT_DIR$/admin2/src/assets/custom.scss" />
+        <option value="$PROJECT_DIR$/admin2/src/AppMain.vue" />
+        <option value="$PROJECT_DIR$/admin/src/views/Dashboard.vue" />
+        <option value="$PROJECT_DIR$/admin2/src/views/Home.vue" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/api/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/api/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/api/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/api/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/api/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/api/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/api/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/api/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/api/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/api/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/api/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/api/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/api/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/api/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/api/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/api/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/api/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/api/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/api/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/api/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/api/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/api/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/api/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/api/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/api/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/api/vendor/composer" />
+      <path value="$PROJECT_DIR$/api/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/api/vendor/league/commonmark-ext-table" />
+      <path value="$PROJECT_DIR$/api/vendor/league/commonmark" />
+      <path value="$PROJECT_DIR$/api/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/api/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/api/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/api/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/api/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/api/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/api/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/api/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/api/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/api/vendor/scrivo/highlight.php" />
+      <path value="$PROJECT_DIR$/api/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/api/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/api/vendor/jakub-onderka/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/api/vendor/jakub-onderka/php-console-color" />
+      <path value="$PROJECT_DIR$/api/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/api/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/api/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/api/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/api/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/api/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/api/vendor/facade/flare-client-php" />
+      <path value="$PROJECT_DIR$/api/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/api/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/api/vendor/facade/ignition" />
+      <path value="$PROJECT_DIR$/api/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/api/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/api/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/api/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/api/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/api/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/api/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/api/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/api/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/api/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/api/vendor/facade/ignition-contracts" />
+      <path value="$PROJECT_DIR$/api/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/api/vendor/league/oauth2-server" />
+      <path value="$PROJECT_DIR$/api/vendor/league/event" />
+      <path value="$PROJECT_DIR$/api/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/api/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/api/vendor/laravel/passport" />
+      <path value="$PROJECT_DIR$/api/vendor/symfony/psr-http-message-bridge" />
+      <path value="$PROJECT_DIR$/api/vendor/firebase/php-jwt" />
+      <path value="$PROJECT_DIR$/api/vendor/lcobucci/jwt" />
+      <path value="$PROJECT_DIR$/api/vendor/phpseclib/phpseclib" />
+      <path value="$PROJECT_DIR$/api/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/api/vendor/defuse/php-encryption" />
+      <path value="$PROJECT_DIR$/api/vendor/laminas/laminas-zendframework-bridge" />
+      <path value="$PROJECT_DIR$/api/vendor/laminas/laminas-diactoros" />
+      <path value="$PROJECT_DIR$/api/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/api/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/api/vendor/guzzlehttp/promises" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-6" />
+    <option name="width" value="1861" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="reporter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reporter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reporter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reporter" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reporter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reporter" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reporter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reporter" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reporter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reporter" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reporter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reporter" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="widgets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reporter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reporter" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="widgets" type="462c0819:PsiDirectoryNode" />
+              <item name="statistic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reporter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reporter" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reporter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reporter" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="theme" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reporter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reporter" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reporter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reporter" type="462c0819:PsiDirectoryNode" />
+              <item name="admin2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reporter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reporter" type="462c0819:PsiDirectoryNode" />
+              <item name="admin2" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reporter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reporter" type="462c0819:PsiDirectoryNode" />
+              <item name="admin2" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reporter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reporter" type="462c0819:PsiDirectoryNode" />
+              <item name="admin2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reporter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reporter" type="462c0819:PsiDirectoryNode" />
+              <item name="admin2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reporter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reporter" type="462c0819:PsiDirectoryNode" />
+              <item name="admin2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reporter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reporter" type="462c0819:PsiDirectoryNode" />
+              <item name="admin2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reporter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reporter" type="462c0819:PsiDirectoryNode" />
+              <item name="admin2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reporter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reporter" type="462c0819:PsiDirectoryNode" />
+              <item name="admin2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reporter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reporter" type="462c0819:PsiDirectoryNode" />
+              <item name="admin2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reporter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reporter" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reporter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reporter" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reporter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reporter" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Exceptions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reporter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reporter" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reporter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reporter" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reporter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reporter" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="Auth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reporter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reporter" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Middleware" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reporter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reporter" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reporter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reporter" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reporter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reporter" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reporter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reporter" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reporter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reporter" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="storage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reporter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reporter" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="storage" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reporter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reporter" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="storage" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reporter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reporter" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="storage" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="default" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reporter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reporter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reporter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reporter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reporter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\reporter\admin2\src\components\statystic" />
+      <recent name="C:\xampp\htdocs\reporter\api\storage\app\public\default" />
+      <recent name="C:\xampp\htdocs\reporter\admin2\public\static" />
+      <recent name="C:\xampp\htdocs\reporter\admin2\src" />
+      <recent name="C:\xampp\htdocs\reporter\admin2\src\api" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="97cbf4f1-756b-4125-880e-a42aab148eda" name="Default Changelist" comment="" />
+      <created>1578680933240</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578680933240</updated>
+      <workItem from="1578680934415" duration="7193000" />
+      <workItem from="1578690364138" duration="3817000" />
+      <workItem from="1578852555346" duration="11359000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="22369000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-6" y="0" width="1861" height="1047" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25541365" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32932165" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32932165" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32932165" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24986118" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32932165" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.32932165" />
+      <window_info anchor="bottom" id="Database Changes" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="4" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Run" order="7" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/admin/src/theme/default.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2890">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin2/src/assets/variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="25" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin2/src/assets/logo.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin2/src/AppLogin.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/registerServiceWorker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin2/vue.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/vue.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="699">
+          <caret line="61" column="18" selection-start-line="61" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/components/layouts/AuthLayout.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin2/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin2/public/static/logo.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin2/src/views/login/old_login.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="56" column="4" lean-forward="true" selection-start-line="56" selection-start-column="4" selection-end-line="61" selection-end-column="10" />
+          <folding>
+            <element signature="e#2041#2087#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin2/src/mixins.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin2/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="50" column="6" selection-start-line="50" selection-start-column="6" selection-end-line="50" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/views/auth/Login.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="51" column="25" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin2/src/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="50" lean-forward="true" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/app/Http/Controllers/Auth/LoginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin2/src/views/login/login.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin2/src/store/modules/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin2/src/permission.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="44" column="32" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin2/src/store/modules/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin2/src/store/getters.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin2/src/components/errors.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="40" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin2/src/views/layout/autocomplete.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin2/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/components/layouts/DefaultLayout.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/components/AppToolbar.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="43" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/components/AppDrawer.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="16" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin2/src/assets/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin2/public/static/logo-white.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/webpack.mix.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../app/front/src/plugins/vuetify.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/plugins/vuetify.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin2/src/plugins/vuetify.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin2/src/components/lang-switcher.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../app/api/database/migrations/2019_09_15_191111_add_fields_to_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="17" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../app/api/database/migrations/2019_10_14_182757_add_avatar_to_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="24" selection-start-line="16" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../app/api/database/migrations/2019_10_15_182055_add_city_to_users_table.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/database/migrations/2020_01_12_215645_add_fields_to_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin2/src/views/layout/topbar-component.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="34" column="96" selection-start-line="34" selection-start-column="96" selection-end-line="34" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../app/api/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/storage/app/public/default/avatar.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/theme/default.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin2/src/store/modules/navigation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin2/src/assets/custom.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/components/widgets/statistic/MiniStatistic.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="17" lean-forward="true" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin2/src/views/layout/left-bar.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin2/src/AppMain.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="24" lean-forward="true" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+          <folding>
+            <element signature="e#1080#1125#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin2/src/components/statystic/MiniStatistic.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="56" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/views/Dashboard.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin2/src/views/Home.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="e#91#134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
