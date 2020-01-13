@@ -1,0 +1,18 @@
+.primary {
+  background-color: #3f51b5;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.fade-in-enter-active, .fade-in-leave-active {
+  transition: all 0.3s;
+}
+
+.fade-in-enter, .fade-in-leave-to {
+  transform: translateX(-300px);
+  opacity: 0;
+}
+
+/*# sourceMappingURL=custom.css.map */

@@ -1,0 +1,15 @@
+@import "variables";
+.primary{
+  background-color: $primary-color;
+}
+.w-100{
+  width: 100%;
+}
+.fade-in-enter-active, .fade-in-leave-active {
+  transition: all .3s;
+
+}
+.fade-in-enter, .fade-in-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  transform: translateX(-300px);
+  opacity: 0;
+}

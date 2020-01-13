@@ -1,0 +1,82 @@
+{
+  "name": "front",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^16.0.0",
+    "@ckeditor/ckeditor5-vue": "^1.0.1",
+    "@toast-ui/vue-image-editor": "^1.0.2",
+    "apexcharts": "^3.10.1",
+    "axios": "^0.18.1",
+    "camelcase": "^5.3.1",
+    "core-js": "^2.6.5",
+    "fabric": "^1.6.7",
+    "jquery": "^3.4.1",
+    "js-cookie": "^2.2.1",
+    "laravel-echo": "^1.6.1",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.27",
+    "pusher-js": "^5.0.2",
+    "register-service-worker": "^1.6.2",
+    "tui-image-editor": "^3.7.2",
+    "vue": "^2.6.10",
+    "vue-apexcharts": "^1.5.1",
+    "vue-axios": "^2.1.4",
+    "vue-i18n": "^8.15.1",
+    "vue-infinite-loading": "^2.4.4",
+    "vue-qr-generator": "^3.0.1",
+    "vue-qrcode-reader": "^2.1.1",
+    "vue-router": "^3.0.3",
+    "vue-trumbowyg": "^3.4.2",
+    "vue-upload-image": "^1.1.5",
+    "vue2-google-maps": "^0.10.7",
+    "vuetify": "^2.0.0",
+    "vuex": "^3.1.1"
+  },
+  "devDependencies": {
+    "@mdi/font": "^4.4.95",
+    "@mdi/js": "^4.4.95",
+    "@vue/cli-plugin-babel": "^3.11.0",
+    "@vue/cli-plugin-eslint": "^3.11.0",
+    "@vue/cli-plugin-pwa": "^3.11.0",
+    "@vue/cli-service": "^3.11.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "material-design-icons-iconfont": "^5.0.1",
+    "sass": "^1.22.12",
+    "sass-loader": "^7.1.0",
+    "vue-cli-plugin-vuetify": "^0.6.3",
+    "vue-template-compiler": "^2.6.10",
+    "vuetify-loader": "^1.2.2"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
