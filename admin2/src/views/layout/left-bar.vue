@@ -1,22 +1,28 @@
 <template>
     <div>
         <v-navigation-drawer
-                v-model="sidebar.opened"
+                light
+                color="white"
+                :mini-variant="!sidebar.opened"
                 app
 
         >
-            <v-toolbar color="primary darken-1" dark>
-                <div class="text-center w-100">
-                    <img src="/static/logo-white.svg" height="36" alt="Vue Material Admin Template" />
+            <v-toolbar flat>
+                <div class="text-center w-100 d-flex justify-center">
+                    <img style="max-width: 100%; object-fit: contain" :src="$root.getSrc('default/logo.png')" height="36" alt="Vue Material Admin Template" />
+                    <div class="d-flex align-center">
+                        <h3 v-if="sidebar.opened">Reporter</h3>
+                    </div>
+
                 </div>
             </v-toolbar>
-            <v-list dense>
+            <v-list dense class="left-nav">
                 <v-list-item-group
                             v-for="item in items"
                               :key="item.text"
                               v-if="item.visible && checkItem(item)">
-                    <v-list-item  v-if="!item.items && item.type != 'subtitle'" :to="(item.to && !item.items)? item.to : null">
-                        <v-list-item-icon><v-icon v-text="item.icon"></v-icon></v-list-item-icon>
+                    <v-list-item style="min-height: 50px" v-if="!item.items && item.type != 'subtitle'" :to="(item.to && !item.items)? item.to : null">
+                        <v-list-item-icon ><v-icon v-text="item.icon"></v-icon></v-list-item-icon>
                         <v-list-item-title>{{$t(item.text)}}</v-list-item-title>
                     </v-list-item>
                     <v-list-group v-if="item.items && item.type != 'subtitle'">
@@ -45,16 +51,10 @@
                 drawer: false,
                 items: [
                     { icon: 'home', text: 'Strona główna', to: '/', visible: true},
-                    { icon: 'mdi-account-badge-horizontal', text: 'Załóż konto', guest: true, to: '/register', visible: true},
-                    { icon: 'mdi-account', text: 'Zaloguj się', to: '/login', guest: true, visible: true},
-                    {type: 'subtitle', text: 'Manage your shop', visible: true, hasPlace: true},
-                    { icon: 'mdi-alarm-check', text: 'Twoje miejsca', to:'/place', visible: true, hasPlace: true},
-                    { icon: 'mdi-package-variant-closed', text: 'Produkty', to:'/products', visible: true, hasPlace:true},
-                    { icon: 'mdi-qrcode', text: 'Generuj kody QR', to:'/generate_qr', visible: true, hasPlace:true},
-                    { icon: 'favorite', text: 'Kategorie', to:'/categories', visible: true, hasPlace: true},
-                    { icon: 'mdi-cart', text: 'Zamówienia', to:'/orders', visible: true, hasPlace: true},
-                    { icon: 'mdi-chart-areaspline-variant', text: 'Statystyki', to:'/stats', visible: true, hasPlace: true},
-                    { icon: 'mdi-sale', text: 'Kody zniżkowe', to:'/codes', visible: true, hasPlace: true},
+                    { icon: 'web', text: 'Twoje strony', to: '/websites', visible: true},
+                    {icon: 'mdi-contactless-payment', text: 'Kontakty', to: '/contacts', visible: true},
+                    { icon: 'mdi-chart-tree', text: 'Kategorie', to: '/categories', visible: true},
+                    { icon: 'mdi-chat', text: 'Chat na stronie', to: '/chat', visible: true},
 
                     /*{ icon: 'favorite', text: 'Kategorie2', to:'/cateories', visible: true, hasPlace: true,
                         items:[
@@ -86,3 +86,39 @@
         }
     }
 </script>
+<style lang="scss">
+    @import "../../assets/variables";
+    .left-nav{
+        .v-list-item{
+            padding-top: 10px !important;
+            padding-bottom: 10px !important;
+            .v-list-item__title{
+                color: $grey-color!important;
+            }
+
+            &:before{
+                display: none !important;
+            }
+            i{
+                color: #cbcbcb;
+            }
+            .v-list-item__icon{
+                margin-top: 16px !important;
+                margin-bottom: 16px !important;
+            }
+
+        }
+        .v-item--active{
+            .v-list-item__title{
+                color: $black-color !important;
+            }
+            i{
+                background: rgb(47,164,241);
+                background: linear-gradient(90deg, rgba(47,164,241,1) 0%, rgba(147,102,205,1) 100%);
+                -webkit-background-clip: text !important;
+                -webkit-text-fill-color: transparent !important;
+            }
+        }
+    }
+
+</style>

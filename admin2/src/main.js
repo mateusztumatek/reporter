@@ -17,7 +17,7 @@ import prototypes from './prototypes';
 import VueQRCodeComponent from 'vue-qr-generator'
 import VueQrcodeReader from "vue-qrcode-reader";
 Vue.use(VueQrcodeReader);
-
+import mixins from './mixins';
 import VueApexCharts from 'vue-apexcharts'
 import {i18n} from "./plugins/i18n";
 

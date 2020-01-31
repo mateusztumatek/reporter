@@ -14,3 +14,12 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/source.js', function (){
+    $js_content = \Illuminate\Support\Facades\View::make('js')->render();
+    return Response::make($js_content, 200)->header('Content-Type', 'application/javascript');
+});
+
+Route::get('/stor/{filePath}', function (\Illuminate\Http\Request $request, $filepath){
+    header("Access-Control-Allow-Origin: *");
+    return response()->file(storage_path('/app/public/'.$filepath));
+})->where(['filePath' => '.*']);

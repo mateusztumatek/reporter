@@ -1,4 +1,42 @@
 @import "variables";
+:root {
+}
+
+
+.wave {
+  position:relative;
+  text-align:center;
+  width:100px;
+  margin-left: auto;
+  margin-right: auto;
+  .dot {
+    display:inline-block;
+    width:6px;
+    height:6px;
+    border-radius:50%;
+    margin-right:3px;
+    background:#303131;
+    animation: wave 1.3s linear infinite;
+
+    &:nth-child(2) {
+      animation-delay: -1.1s;
+    }
+
+    &:nth-child(3) {
+      animation-delay: -0.9s;
+    }
+  }
+}
+
+@keyframes wave {
+  0%, 60%, 100% {
+    transform: initial;
+  }
+
+  30% {
+    transform: translateY(-15px);
+  }
+}
 .primary{
   background-color: $primary-color;
 }
@@ -12,4 +50,52 @@
 .fade-in-enter, .fade-in-leave-to /* .fade-leave-active below version 2.1.8 */ {
   transform: translateX(-300px);
   opacity: 0;
+}
+.chat{
+  .v-list-item__title{
+    text-overflow: unset !important;
+    white-space: pre-wrap !important;
+  }
+  .v-list-item__action:first-child{
+    margin-right: 16px;
+  }
+  .v-list-item__content{
+    padding: 10px 5px;
+    border-radius: 5px;
+    background-color: $primary-color;
+    color: white;
+  }
+}
+.reverse{
+  flex-direction: row-reverse;
+  .v-list-item__avatar{
+    margin-right: 0px;
+    margin-left: 16px !important;
+  }
+  .v-list-item__content{
+    background-color: #f2f2f2;
+    color: black
+  }
+}
+.chat{
+  .messages{
+    margin-left: -10px;
+    margin-right: -10px;
+    padding: 0px 10px;
+    max-height: 80%;
+    overflow-x: hidden;
+  }
+  .form{
+    height: 20%;
+  }
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.v-application{
+  .primary{
+    background: rgb(110,117,221) !important;
+    background: linear-gradient(90deg, rgba(110,117,221,1) 0%, rgba(137,171,255,1) 100%) !important;
+  }
 }

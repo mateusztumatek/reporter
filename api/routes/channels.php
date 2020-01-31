@@ -11,6 +11,12 @@
 |
 */
 
-Broadcast::channel('App.User.{id}', function ($user, $id) {
-    return (int) $user->id === (int) $id;
+Broadcast::channel('App.User.*', function ($user, $id) {
+    return true;
+});
+Broadcast::channel('UserEvents.{id}', function ($user){
+    return true;
+});
+Broadcast::channel('Chat.{id}', function ($user){
+   return true;
 });

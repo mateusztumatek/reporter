@@ -24,7 +24,6 @@ router.beforeEach(async(to, from, next) => {
     // determine whether the user has logged in
     const hasToken = getToken();
     if (hasToken) {
-        console.log(to.meta);
         if (to.meta.guest == true) {
             next({ path: '/' });
         } else {
@@ -36,10 +35,14 @@ router.beforeEach(async(to, from, next) => {
                         }
                     }
                     if(to.path == '/verify') next('/');
-                    next();
+                    store.dispatch('websites/getWebsites').then(response => {
+                        next();
+                    })
                 });
             }else{
-                next();
+                store.dispatch('websites/getWebsites').then(response => {
+                    next();
+                })
             }
         }
     } else {

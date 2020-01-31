@@ -1,0 +1,141 @@
+@import "animations";
+
+.main-card{
+  position: absolute;
+  right: 35px;
+  bottom: 35px;
+  width: var(--width);
+  height: var(--height);
+  transition: all 300ms;
+}
+.btn-toggler{
+  width: var(--width-button);
+  height: var(--height-button);
+}
+.btn-toggler-opened{
+
+}
+.v-application--wrap {
+  min-width: unset !important;
+  min-height: unset !important;
+}
+/*.reporter-app-content{
+  position: fixed;
+  right: 100px;
+  bottom: 100px;
+}*/
+.rounded-card{
+  .v-card{
+    border-radius: 16px !important;
+  }
+}
+.toggle-enter-active, .toggle-leave-active {
+  transition: all 300ms;
+  transform-origin: bottom;
+}
+.toggle-enter, .toggle-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+  transform: scaleY(0);
+}
+.w-100{
+  width: 100%;
+}
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
+.v-toolbar--prominent{
+  transition: all 300ms;
+  min-height: 120px;
+  height: unset !important;
+  .v-toolbar__content {
+    transition: all 300ms;
+    height: unset !important;
+    min-height: 120px;
+  }
+}
+.small-toolbar{
+  min-height: 50px;
+  .v-toolbar__content{
+    min-height: 50px;
+  }
+}
+.v-list-item, .v-subheader{
+  padding: 0px !important;
+}
+.chat{
+  .v-list-item__title{
+    text-overflow: unset !important;
+    white-space: pre-wrap !important;
+  }
+  .v-list-item__action:first-child{
+    margin-right: 16px;
+  }
+  .v-list-item__content{
+    padding: 10px 5px;
+    border-radius: 5px;
+    background-color: var(--primary-color);
+    color: white;
+  }
+}
+.reverse{
+  flex-direction: row-reverse;
+  .v-list-item__avatar{
+    margin-right: 0px;
+    margin-left: 16px !important;
+  }
+  .v-list-item__content{
+    background-color: #f2f2f2;
+    color: black
+  }
+}
+.contacts{
+  margin-left: -10px;
+  margin-right: -10px;
+  padding: 0px 10px;
+  max-height: 100% !important;
+  overflow-x: hidden !important;
+}
+.chat{
+  .messages{
+    margin-left: -10px;
+    margin-right: -10px;
+    padding: 0px 10px;
+    max-height: 80%;
+    overflow-x: hidden;
+  }
+  .form{
+    height: 20%;
+  }
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.h-20{
+  height: 20%;
+}
+.validation-hidden{
+  .v-input__slot{
+    margin-bottom: 0px !important;
+  }
+  .v-text-field__details{
+    display: none !important;
+  }
+}
+.v-overlay--active{
+  .v-overlay__scrim{
+    opacity: 0.85 !important;
+  }
+  .v-overlay__content{
+    width: 90%;
+  }
+}
+.v-text-field--outlined{
+  fieldset{
+    border-color: #ebebeb;
+  }
+}
+

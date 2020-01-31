@@ -1,0 +1,10 @@
+#reporter-iframe {
+  overflow: hidden;
+  border: none !important;
+  padding: 0px;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+
+/*# sourceMappingURL=iframe.css.map */

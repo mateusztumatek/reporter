@@ -4,7 +4,7 @@
         <my-topbar></my-topbar>
         <v-content>
             <my-header v-if="header"></my-header>
-            <v-container style="align-items: start" v-bind:class="{'px-0 pt-0': $route.meta.fullWidth}">
+            <v-container style="align-items: start; padding: 0px" v-bind:class="{'px-0 pt-0': $route.meta.fullWidth}">
                 <div class="my-container" v-bind:class="{'full-width': $route.meta.fullWidth}">
                     <transition name="fade-in" mode="out-in">
                         <router-view :key="key" />
@@ -56,10 +56,8 @@
         },
         mounted(){
             this.$root.$eventBus.$on('left_bar', () => {
-                console.log('fwafwa');
                 this.open_leftbar = !this.open_leftbar;
             })
-            console.log(this.$route);
         },
         data(){
             return{

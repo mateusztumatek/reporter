@@ -5,7 +5,10 @@ import Layout from '@/AppMain.vue';
 import store from './store';
 import LoginLayout from '@/AppLogin.vue';
 Vue.use(Router);
-
+import WebsiteRoutes from './routes/websites';
+import CategoryRoutes from './routes/categories';
+import ChatRoutes from './routes/chat';
+import ContactRoutes from './routes/contacts';
 export const my_routes =
   [
     {
@@ -90,7 +93,10 @@ export const my_routes =
       }
       ]
     },
-
+      ContactRoutes,
+      ChatRoutes,
+    WebsiteRoutes,
+    CategoryRoutes,
     {
       path: '*',
       name: '404',

@@ -1,8 +1,9 @@
 import axios from 'axios';
 import { getToken, setToken } from './auth';
+import config from '../config';
 // Create axios instance
 const service = axios.create({
-    baseURL: process.env.MIX_BASE_API,
+    baseURL: config.config.base_url,
     timeout: 10000, // Request timeout
     withCredentials: true
 });

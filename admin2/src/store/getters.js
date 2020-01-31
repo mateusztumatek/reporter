@@ -9,5 +9,8 @@ const getters = {
     app: (state) => {return state.app.app},
     notifications: (state) => {return state.notifications.notifications},
     messages: (state) => {return state.app.app.messages},
+    chats:(state) => {return state.chat.chats},
+    activeChat: (state) => {return state.chat.activeChat},
+    websites: (state) => {return state.websites.websites}
 };
 export default getters;

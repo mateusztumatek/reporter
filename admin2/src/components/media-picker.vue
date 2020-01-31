@@ -1,6 +1,18 @@
 <template>
-    <div>
+    <div class="media-picker">
         <v-dialog v-model="dialog" dark fullscreen persistent hide-overlay transition="dialog-bottom-transition">
+            <template v-slot:activator="{ on }">
+                <v-btn
+                        style="min-height: 50px"
+                        color="primary"
+                        class="w-100"
+                        dark
+                        @click="dialog = !dialog"
+                        tile
+                >
+                    Wybierz plik
+                </v-btn>
+            </template>
             <v-card :loading="loading">
                 <v-toolbar dark color="primary">
                     <v-btn icon dark @click="close()">
@@ -43,6 +55,25 @@
                 </div>
             </v-card>
         </v-dialog>
+        <div class="row" v-if="showThumb">
+            <div class="col-md-3" v-for="file in selectedFiles">
+                <v-card>
+                    <v-img
+                            class="white--text align-end"
+                            height="200px"
+                            :src="$root.getSrc(file)"
+                    >
+                        <v-card-title>
+                            <v-btn  class="ma-1" color="red" fab small @click="unselect(file)"><v-icon>mdi-trash-can-outline</v-icon></v-btn>
+                        </v-card-title>
+                    </v-img>
+
+                </v-card>
+            </div>
+        </div>
+        <div>
+            <v-text-field v-model="value" :rules="rules"></v-text-field>
+        </div>
     </div>
 </template>
 <script>
@@ -50,24 +81,37 @@
     import {upload} from "../api/upload";
 
     export default {
+        props:['value', 'rules', 'icons'],
         data(){
             return{
                 cacheKey: null,
-                dialog: true,
+                dialog: false,
                 media: null,
                 uploading: false,
                 loading: false,
+                tmp_value: null,
             }
         },
-        mounted() {
-            this.$root.$eventBus.$on('updateImages', () => {
-                this.loading = true;
-                this.cacheKey = Math.round(Math.random() * 10);
-                setTimeout(() => {
-                    this.loading = false;
-                }, 400)
-            })
-            this.getMedia();
+        computed:{
+            showThumb(){
+                if(this.icons == null) return true;
+                return this.icons;
+            },
+            selectedFiles(){
+                if(typeof this.value == 'array' || typeof this.value == 'object') return this.value;
+                if(typeof this.value == 'string') return [this.value];
+                return null;
+            }
+        },
+        watch:{
+          value: function(){
+            this.tmp_value = this.value;
+          },
+          dialog:function () {
+              if(this.dialog){
+                  this.getMedia();
+              }
+          }
         },
         methods:{
             remove(media){
@@ -95,7 +139,10 @@
             },
             select(media){
                 this.dialog = false;
-                this.$emit('select', media.path);
+                this.$emit('input', media.path);
+            },
+            unselect(file){
+                this.$emit('input', null);
             },
             close(){
                 this.dialog = false;
@@ -112,3 +159,8 @@
         }
     }
 </script>
+<style lang="scss">
+    .media-picker{
+        .v-input__slot{display: none !important;}
+    }
+</style>

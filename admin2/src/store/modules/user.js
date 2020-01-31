@@ -78,6 +78,8 @@ const actions = {
             login(data).then(response => {
                 commit('setUser', response.user);
                 setToken(response.access_token);
+                Echo.connector.pusher.config.auth.headers['Authorization'] = 'Bearer ' + getToken();
+
                 resolve();
             }).catch(e => {
                 reject(e);

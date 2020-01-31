@@ -36,6 +36,10 @@ return [
     */
 
     'guards' => [
+        'broadcasting' => [
+            'driver' => 'custom-broadcast',
+            'provider' => 'users'
+        ],
         'web' => [
             'driver' => 'session',
             'provider' => 'users',

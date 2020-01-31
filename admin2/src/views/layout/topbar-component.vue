@@ -8,26 +8,12 @@
                 class="my-header"
         >
             <v-app-bar-nav-icon @click="toggleSidebar()"></v-app-bar-nav-icon>
-                <v-toolbar-items v-bind:class="{'w-100': $root.isMobile()}">
-                    <autocomplete v-if="!isTransparent()"></autocomplete>
-                </v-toolbar-items>
+
                 <v-spacer></v-spacer>
                 <v-toolbar-items v-if="!isTransparent()">
                     <v-btn icon @click="fullScreen()">
                         <v-icon>fullscreen</v-icon>
                     </v-btn>
-                    <lang-switcher></lang-switcher>
-                    <v-menu offset-y origin="center center" transition="scale-transition" v-if="user.id">
-                        <template v-slot:activator="{ on }">
-                            <v-btn v-on="on" icon>
-                                <v-badge color="red" overlap>
-                                    <span slot="badge">3</span>
-                                    <v-icon medium>notifications</v-icon>
-                                </v-badge>
-                            </v-btn>
-                        </template>
-                        <notification-list></notification-list>
-                    </v-menu>
                     <v-menu offset-y origin="center center" :nudge-bottom="10" transition="scale-transition" v-if="user.id">
                         <template v-slot:activator="{ on }">
                             <v-btn v-on="on" icon large >

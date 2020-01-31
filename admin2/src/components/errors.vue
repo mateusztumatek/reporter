@@ -1,20 +1,8 @@
 <template>
     <div>
-        <v-snackbar
-                :value="true"
-                v-for="error in app_errors"
-        >
-            {{ error.text }}
-            <v-btn
-                    color="red"
-                    @click="$store.commit('app/CLOSE_ERROR', error)"
-            >
-                Close
-            </v-btn>
-        </v-snackbar>
         <div class="messages">
             <transition-group name="slide-fade">
-                <v-alert :key="message.text" dismissible type="success" v-for="message in messages">
+                <v-alert :key="message.text" dismissible :type="message.type" v-for="message in messages">
                     {{message.text}}
                 </v-alert>
             </transition-group>
