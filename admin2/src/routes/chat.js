@@ -12,6 +12,11 @@ const websites =
                 meta:{auth: true},
                 children:[
                     {
+                        path:'/chat',
+                        component: () => import('@/views/chat/home'),
+                        meta:{auth:true}
+                    },
+                    {
                         path:'/chat/:hash',
                         component: () => import('@/views/chat/message-form'),
                         meta:{auth:true}

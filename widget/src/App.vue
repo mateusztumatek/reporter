@@ -48,6 +48,15 @@ export default {
     mounted() {
         this.$store.dispatch('getWebsite');
         this.$store.dispatch('setWindowSize');
+        window.onmessage = (data) => {
+            data = data.data;
+            if(data.type && data.type == 'open_window'){
+                this.$store.dispatch('toggleWindow', true);
+            }
+            if(data.type == 'chat_settings'){
+                this.$store.commit('SET_CHAT_SETTINGS', data.chat_settings);
+            }
+        }
         new ResizeObserver(() => {
             if(this.$refs.content){
                 window.parent.postMessage({width: this.$refs.content.$el.clientWidth, height: this.$refs.content.$el.clientHeight}, '*');

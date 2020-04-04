@@ -40,12 +40,14 @@
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/laminas/laminas-zendframework-bridge" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/laravel/framework" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/laravel/passport" />
+      <excludeFolder url="file://$MODULE_DIR$/api/vendor/laravel/socialite" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/laravel/tinker" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/lcobucci/jwt" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/league/commonmark" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/league/commonmark-ext-table" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/league/event" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/league/flysystem" />
+      <excludeFolder url="file://$MODULE_DIR$/api/vendor/league/oauth1-client" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/league/oauth2-server" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/maxmind-db/reader" />
       <excludeFolder url="file://$MODULE_DIR$/api/vendor/maxmind/web-service-common" />
@@ -144,5 +146,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="app" />
+    <orderEntry type="module" module-name="forum" />
   </component>
 </module>

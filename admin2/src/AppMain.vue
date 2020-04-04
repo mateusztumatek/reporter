@@ -23,6 +23,7 @@
         </div>
         <errors-component></errors-component>
         <image-editor></image-editor>
+        <password-update></password-update>
     </v-app>
 </template>
 
@@ -33,6 +34,7 @@
     import ErrorsComponent from './components/errors';
     import myFooter from './views/layout/footer';
     import ImageEditor from './components/image-editor';
+    import PasswordUpdate from './views/login/update-password';
     export default {
         name: 'App',
         components:{
@@ -42,6 +44,7 @@
             ErrorsComponent,
             myFooter,
             myHeader,
+            PasswordUpdate,
         },
         computed: {
             app(){

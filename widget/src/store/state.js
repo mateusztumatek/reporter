@@ -5,6 +5,9 @@ export default {
     activeWindow: null,
     chat: null,
     loading: false,
+    chat_settings:{
+
+    },
     appearance: {
         width: 400,
         height: 400,

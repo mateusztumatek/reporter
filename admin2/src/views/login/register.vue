@@ -1,82 +1,92 @@
 <template>
     <div>
-        <v-row
-                align="center"
-                justify="center"
-        >
-            <v-col
-                    cols="12"
-                    sm="8"
-                    md="4"
+        <h1 class="display-2"><span class="text-muted">Witamy w </span><strong style="font-weight: 900">Reporter</strong></h1>
+        <h3 class="headline mt-6 mb-6 text-muted" style="font-weight: 200">Ulepsz komunikację z klientem<br> jednym prostum ruchem.</h3>
+        <div class="transparent">
+            <v-form
+                    ref="form"
+                    v-model="valid"
+                    lazy-validation
             >
-                <v-card class="elevation-12">
-                    <v-toolbar
-                            color="primary"
-                            dark
-                            flat>
-                        <v-toolbar-title> <span v-if="!user">{{$t('Zarejestruj się')}}</span><span v-else>{{$t('Zweryfikuj email')}}</span></v-toolbar-title>
-                    </v-toolbar>
-                    <v-card-text>
-                        <v-form
-                                ref="form"
-                                v-model="valid"
-                                lazy-validation
-                        >
-                            <v-text-field
-                                    v-model = "user.login"
-                                    :label="$t('Login')"
-                                    name="login"
-                                    prepend-icon="person"
-                                    :error="(errors.login)? true : false"
-                                    :error-messages="errors.login"
-                                    :rules="nameRules"
-                                    type="text"
-                            ></v-text-field>
-                            <v-text-field
-                                    v-model = "user.email"
-                                    :label="$t('Email')"
-                                    :rules="emailRules"
-                                    :error="(errors.email)? true : false"
-                                    :error-messages="errors.email"
-                                    name="email"
-                                    prepend-icon="email"
-                                    type="email"
-                            ></v-text-field>
-                            <v-text-field
-                                    v-model = "user.password"
-                                    id="password"
-                                    :label="$t('Hasło')"
-                                    name="password"
-                                    :error="(errors.password)? true : false"
-                                    :error-messages="errors.password"
-                                    :rules="passwordRules"
-                                    prepend-icon="lock"
-                                    type="password"
-                            ></v-text-field>
-                            <v-text-field
-                                    v-model = "user.password_confirmation"
-                                    id="password"
-                                    :label="$t('Powtórz hasło')"
-                                    name="password"
-                                    :error="(errors.password_confirmation)? true : false"
-                                    :error-messages="errors.password_confirmation"
-                                    prepend-icon="lock"
-                                    type="password"
-                            ></v-text-field>
-                        </v-form>
-                    </v-card-text>
-                    <v-card-actions>
-                        <div class="flex-grow-1"></div>
-                        <v-btn color="primary" @click="registerUser()">{{$t('Zarejestruj się')}}</v-btn>
-                    </v-card-actions>
-                </v-card>
-            </v-col>
-        </v-row>
+                <v-text-field
+                        v-model = "user.name"
+                        :label="$t('Imie i nazwisko')"
+                        name="name"
+                        solo
+                        height="60px"
+                        :error-messages="errors.name"
+                        :rules="nameRules"
+                        type="text"
+                ></v-text-field>
+                <v-text-field
+                        v-model = "user.login"
+                        :label="$t('Login')"
+                        name="login"
+                        solo
+                        height="60px"
+                        :error="(errors.login)? true : false"
+                        :error-messages="errors.login"
+                        :rules="nameRules"
+                        type="text"
+                ></v-text-field>
+                <v-text-field
+                        v-model = "user.email"
+                        :label="$t('Email')"
+                        :rules="emailRules"
+                        :error="(errors.email)? true : false"
+                        :error-messages="errors.email"
+                        name="email"
+                        solo
+                        height="60px"
+                        type="email"
+                ></v-text-field>
+                <v-text-field
+                        v-model = "user.password"
+                        id="password"
+                        :label="$t('Hasło')"
+                        name="password"
+                        :error="(errors.password)? true : false"
+                        :error-messages="errors.password"
+                        :rules="passwordRules"
+                        solo
+                        height="60px"
+                        type="password"
+                ></v-text-field>
+                <v-text-field
+                        v-model = "user.password_confirmation"
+                        id="password"
+                        :label="$t('Powtórz hasło')"
+                        name="password"
+                        :error="(errors.password_confirmation)? true : false"
+                        :error-messages="errors.password_confirmation"
+                        solo
+                        height="60px"
+                        type="password"
+                ></v-text-field>
+            </v-form>
+        </div>
+        <div class="row mt-5">
+            <div class="col-auto">
+                <v-btn dark depressed color="black" class="px-12" style="min-height: 50px" @click="registerUser()" :loading="loading">{{$t("Register user")}}</v-btn>
+            </div>
+            <div class="col-auto">
+                <v-btn dark depressed color="black" outlined class="px-12" style="min-height: 50px" :to="'/login'"  :loading="loading">{{$t("Zaloguj sie")}}</v-btn>
+            </div>
+        </div>
+        <p class="mt-10 text-muted">
+            By signing up, you agree on:<br>
+            <a :href="'/strona/regulamin'" class="black--text font-weight-bold my-link">Regulamin</a> & <a :href="'/strona/polityka'" class="black--text font-weight-bold my-link">Polityka prywatności</a>
+        </p>
     </div>
 </template>
 <script>
     import {mapActions} from 'vuex';
     export default {
+        computed:{
+            isSmall(){
+                return this.$vuetify.breakpoint.smAndDown;
+            }
+        },
         data(){
             var strongRegex = new RegExp("^(((?=.*[a-z])(?=.*[A-Z]))|((?=.*[a-z])(?=.*[0-9]))|((?=.*[A-Z])(?=.*[0-9])))(?=.{6,})");
             return{

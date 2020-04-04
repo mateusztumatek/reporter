@@ -9,5 +9,6 @@ export default {
     contacts: (state) => {return state.contacts},
     activeContact: (state) => {return state.activeContact},
     messages:(state) => {return state.messages},
-    windowSize: (state) => {return state.windowSize}
+    windowSize: (state) => {return state.windowSize},
+    chat_settings: (state) => {return state.chat_settings}
 }

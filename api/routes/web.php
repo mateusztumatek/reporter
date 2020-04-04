@@ -23,3 +23,7 @@ Route::get('/stor/{filePath}', function (\Illuminate\Http\Request $request, $fil
     header("Access-Control-Allow-Origin: *");
     return response()->file(storage_path('/app/public/'.$filepath));
 })->where(['filePath' => '.*']);
+
+Route::get('/auth/{type}', 'Auth\LoginController@redirectExternal');
+Route::get('/auth/{type}/callback', 'Auth\LoginController@externalCallback');
+Route::get('/auth/callback_/{type}', 'Auth\LoginController@externalCallback');

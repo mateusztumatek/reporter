@@ -19,7 +19,7 @@ Route::group(['middleware' => 'WebsiteUserMiddleware'], function (){
     Route::post('/website_user', 'WebsiteController@updateUser');
 
     Route::get('/chat', 'ChatController@index');
-    Route::post('/chat/markAsRead', 'ChatController@markAsRead');
+/*    Route::post('/chat/markAsRead', 'ChatController@markAsRead');*/
     Route::get('/contacts', 'ContactController@index');
 
     Route::post('/chat_message', 'ChatController@message');
@@ -40,6 +40,7 @@ Route::group(['middleware' => 'auth:api'], function (){
 
 
 });
+Route::resource('/users', 'UserController');
 Route::post('/upload/update', 'UploadController@update');
 Route::post('/upload/remove', 'UploadController@remove');
 Route::post('/upload/{hash}', 'UploadController@upload');

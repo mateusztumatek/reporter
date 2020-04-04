@@ -2,8 +2,8 @@
     <div refs="main" class="main-card rounded-card" :style="varCss">
         <transition name="toggle" mode="in-out">
             <v-card :loading="loading" v-if="is_opened" class="elevation-5" style="width: 100%; height: 100%">
-                <v-toolbar color="primary" :prominent="activeWindow == null" dark src="https://cdn.vuetifyjs.com/images/backgrounds/vbanner.jpg">
-                    <v-toolbar-title class="animated fadeIn" v-if="activeWindow == null || activeWindow == -1">Nazwa strony</v-toolbar-title>
+                <v-toolbar color="primary" :prominent="activeWindow == null" dark>
+                    <v-toolbar-title class="animated fadeIn" v-if="activeWindow == null || activeWindow == -1"><v-img max-width="150px" contain max-height="60px" v-if="chat_settings && chat_settings.logo" :src="$root.getSrc(chat_settings.logo)"></v-img></v-toolbar-title>
                     <v-btn v-if="activeWindow != null && activeWindow >= 0" icon @click="(!$store.getters.activeContact)? $store.commit('SET_ACTIVE_WINDOW', null) : $store.commit('SET_ACTIVE_CONTACT', null)" class="animated fadeIn">
                         <v-icon>mdi-arrow-left-thick</v-icon>
                     </v-btn>
@@ -16,11 +16,11 @@
                     </v-btn>
                 </v-toolbar>
                 <v-card-text :style="{'height': 'calc(100% - '+headerHeight+'px)'}">
+                    <p style="white-space: pre;" class="mb-0 mt-2" v-if="chat_settings && chat_settings.main_message && activeWindow == null" v-html="chat_settings.main_message"></p>
                     <chat-component key="chat" v-if="activeWindow == 0"></chat-component>
                     <contact-component v-if="activeWindow == 1"></contact-component>
                     <report-component v-if="activeWindow == 2"></report-component>
                     <v-list rounded v-if="activeWindow == null" key="list">
-                        <v-subheader>Wybierz akcje</v-subheader>
                         <v-list-item-group :value="activeWindow" @input="changeWindow" color="primary">
                             <v-list-item
                                     @click="changeWindow(i)"
@@ -61,6 +61,8 @@
             }
         },
         computed:{
+            chat_settings(){return this.$store.getters.chat_settings},
+            website(){return this.$store.website},
             headerHeight(){
                 if(this.activeWindow == null) return 120;
                 return 64;

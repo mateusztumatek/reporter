@@ -1,4 +1,5 @@
 import {store} from './index';
+import vuetify from '../plugins/vuetify';
 export default {
     SET_WEBSITE:(state, data) => {state.website = data},
     TOOGLE_WINDOW: (state, data) => {
@@ -11,6 +12,11 @@ export default {
     SET_APPEARANCE: (state, data) => {
         state.appearance = data;
         store.dispatch('setWindowSize');
+    },
+    SET_CHAT_SETTINGS:(state, data) => {
+        vuetify.framework.theme.themes.light.primary = data.primary;
+        state.chat_settings = data;
+        console.log(vuetify.framework.theme.themes.light);
     },
     ADD_CHAT_MESSAGE: (state, data) => {
         if(state.chat.id == data.chat_id && state.chat.messages.findIndex(x => x.id == data.id) == -1){

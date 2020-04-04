@@ -1,7 +1,7 @@
 import router from './router';
 import store from './store';
 import {getToken, removeToken} from './utilis/auth';
-
+import Vue from 'vue';
 /*router.beforeEach(async (to, from, next) => {
     if(!store.getters.app.langs){
         store.dispatch('app/getLangs');
@@ -56,11 +56,12 @@ router.beforeEach(async(to, from, next) => {
 });
 
 router.afterEach((to) => {
-    setTimeout(() => {
-        store.commit('app/setLoading', false);
-    }, 500)
     if(to.meta.header_visible){
         store.commit('navigation/SET_HEADER', {title: ''});
     }else store.commit('navigation/RESET_HEADER');
-
+    if((store.getters.user.is_facebook || store.getters.user.is_google) && store.getters.user.last_password_change == null){
+        setTimeout(() => {
+            Vue.prototype.$eventBus.$emit('updateUserPassword');
+        }, 1000)
+    }
 })

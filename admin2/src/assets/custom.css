@@ -1,3 +1,7 @@
+.text-muted {
+  opacity: 0.6;
+}
+
 .wave {
   position: relative;
   text-align: center;
@@ -60,6 +64,14 @@
   color: white;
 }
 
+.my-link {
+  transition: all 300ms;
+  text-decoration: none !important;
+}
+.my-link:hover {
+  opacity: 0.6;
+}
+
 .reverse {
   flex-direction: row-reverse;
 }
@@ -70,6 +82,12 @@
 .reverse .v-list-item__content {
   background-color: #f2f2f2;
   color: black;
+}
+
+.logo-absolute {
+  margin: auto;
+  position: absolute;
+  top: 10px;
 }
 
 .chat {
@@ -92,6 +110,34 @@
 .v-application .primary {
   background: #6e75dd !important;
   background: linear-gradient(90deg, #6e75dd 0%, #89abff 100%) !important;
+}
+
+.no-validation {
+  margin-bottom: 0px;
+}
+.no-validation .v-input__slot {
+  margin-bottom: 0px;
+}
+.no-validation .v-text-field__details {
+  display: none;
+}
+
+.route-enter-active {
+  transition: all 0.4s;
+}
+
+.route-leave-active {
+  transition: all 0.4s;
+}
+
+.route-enter {
+  transform: translateX(200px);
+  opacity: 0;
+}
+
+.route-leave-to {
+  transform: translateX(-200px);
+  opacity: 0;
 }
 
 /*# sourceMappingURL=custom.css.map */

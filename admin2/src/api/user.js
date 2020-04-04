@@ -55,3 +55,17 @@ export function getSessionKey() {
         method: 'get',
     })
 }
+export function resetPassword(data) {
+    return Request({
+        url: config.config.base_url+'/api/password/email',
+        method: 'post',
+        data: data
+    })
+}
+export function reset(data) {
+    return Request({
+        url: config.config.base_url+'/api/password/reset',
+        method: 'post',
+        data: data
+    })
+}

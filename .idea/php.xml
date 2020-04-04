@@ -138,6 +138,8 @@
       <path value="$PROJECT_DIR$/api/vendor/maxmind-db/reader" />
       <path value="$PROJECT_DIR$/api/vendor/maxmind/web-service-common" />
       <path value="$PROJECT_DIR$/api/vendor/torann/geoip" />
+      <path value="$PROJECT_DIR$/api/vendor/league/oauth1-client" />
+      <path value="$PROJECT_DIR$/api/vendor/laravel/socialite" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.2" />

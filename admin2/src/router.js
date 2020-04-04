@@ -39,7 +39,7 @@ export const my_routes =
     {
       path: '/register',
       redirect: '',
-      component: Layout,
+      component: LoginLayout,
       children:[
         {
           path:'',
@@ -48,6 +48,24 @@ export const my_routes =
           meta: { title: 'Register', icon: 'register', noCache: false, guest: true },
         }
       ]
+    },
+    {
+      path: '/reset',
+      redirect: '',
+      component: LoginLayout,
+      children:[
+        {
+          path:'',
+          name: 'reset',
+          component:() => import('@/views/login/forget-password.vue'),
+          meta: { title: 'reset', icon: 'register', noCache: false, guest: true },
+        }
+      ]
+    },
+    {
+      path: '/auth',
+      redirect: '',
+      component: () => import('@/views/token-redirect.vue'),
     },
     {
       path: '/verify',

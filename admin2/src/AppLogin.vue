@@ -1,19 +1,31 @@
 <template>
-    <v-app class="primary split-bg">
-        <v-content>
-            <v-container fluid fill-height>
-                <v-layout align-center justify-center>
-                    <v-flex xs12 sm8 md4 lg4>
-                        <router-view :key="$route.path"></router-view>
-                    </v-flex>
-                </v-layout>
-            </v-container>
-        </v-content>
+    <v-app>
+       <div class="row">
+           <div class="col-lg-5 col-md-7 d-flex justify-center align-center">
+               <div class="col-md-10 col-xs-12">
+                   <transition name="route" mode="out-in">
+                       <router-view :key="$route.path"></router-view>
+                   </transition>
+               </div>
+           </div>
+           <div class="col-lg-7 col-md-5 pa-0" v-if="!isSmall">
+               <v-img style="height: 100vh; width: 100%" :src="$root.getSrc('default/login.jpg')"></v-img>
+           </div>
+       </div>
+        <errors-component></errors-component>
     </v-app>
 </template>
 
 <script>
+    import ErrorsComponent from './components/errors';
+
     export default {
+        components:{ErrorsComponent},
+        computed:{
+            isSmall(){
+                return this.$vuetify.breakpoint.smAndDown;
+            }
+        },
         data: () => ({}),
 
         methods: {}

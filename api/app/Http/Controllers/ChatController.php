@@ -60,12 +60,6 @@ class ChatController extends Controller
         foreach ($request->except('website', 'website_user') as $data){
             $message = ChatMessage::where('id', $data['id'])->first();
             if($message){
-                if($message->type == 'website'){
-                    if($request->website_user->id != $message->chat->website_user_id) return response()->json(['errors' => 'Nie masz dostępu'], 403);
-                }
-                if($message->type == 'user'){
-                    if($request->user('api')->id != $message->chat->website_id) return response()->json(['errors' => 'Nie masz dostępu'], 403);
-                }
                 $message->update([
                     'seen' => true
                 ]);

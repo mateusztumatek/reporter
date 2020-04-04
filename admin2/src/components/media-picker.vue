@@ -1,5 +1,6 @@
 <template>
     <div class="media-picker">
+        <label v-if="label">{{label}}</label>
         <v-dialog v-model="dialog" dark fullscreen persistent hide-overlay transition="dialog-bottom-transition">
             <template v-slot:activator="{ on }">
                 <v-btn
@@ -81,7 +82,7 @@
     import {upload} from "../api/upload";
 
     export default {
-        props:['value', 'rules', 'icons'],
+        props:['value', 'rules', 'icons', 'label'],
         data(){
             return{
                 cacheKey: null,
