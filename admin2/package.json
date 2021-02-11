@@ -11,7 +11,7 @@
     "@ckeditor/ckeditor5-build-classic": "^16.0.0",
     "@ckeditor/ckeditor5-vue": "^1.0.1",
     "@toast-ui/vue-image-editor": "^1.0.2",
-    "apexcharts": "^3.10.1",
+    "apexcharts": "^3.24.0",
     "axios": "^0.18.1",
     "camelcase": "^5.3.1",
     "core-js": "^2.6.5",
