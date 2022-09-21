@@ -37,7 +37,7 @@
     "vue-trumbowyg": "^3.4.2",
     "vue-upload-image": "^1.1.5",
     "vue2-google-maps": "^0.10.7",
-    "vuetify": "^2.0.0",
+    "vuetify": "^2.6.10",
     "vuex": "^3.1.1"
   },
   "devDependencies": {
